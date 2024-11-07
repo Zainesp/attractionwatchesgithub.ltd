@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch World</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styling */
+    .hero {
+      background: url('https://wallpaperaccess.com/full/3046105.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    .featured-section h2 {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    /* Ensures the cards are in a row and evenly spaced on large screens */
+    .card-deck {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 15px;
+    }
+
+    .card {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="bootstrap.html">Watch World</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="bootstrap.html">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="bootstrapcollection.html">Collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bootstrapaboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bootstrapcontact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Discover Timeless Elegance</h1>
+  <p>Explore the finest collection of luxury watches</p>
+  <a href="bootstrapcollection.html" class="btn btn-light btn-lg mt-4">Shop Now</a>
+</section>
+
+<!-- Featured Products Section -->
+<section id="featured" class="featured-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center">Featured Watches</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1722244319/rolexcom/collection/family-pages/professional-watches/submariner/family-page/professional-watches-submariner-diver-watch-M124060-0001_2403jva_002" alt="Rolex Watch" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Rolex Submariner</h5>
+          <p class="card-text">The Rolex Submariner is an iconic dive watch, renowned for its timeless design and superior craftsmanship. Originally introduced in 1953, it set the standard for water-resistant timepieces with a depth rating up to 300 meters. Its unidirectional rotatable bezel and luminescent hour markers offer both functionality and elegance, making it a favorite among professionals and enthusiasts alike. The Submariner features Rolex’s in-house automatic movement, known for accuracy and durability. With a robust 904L stainless steel case, sleek Oyster bracelet, and scratch-resistant sapphire crystal, the Submariner embodies a blend of luxury and ruggedness, perfect for any occasion, from diving to fine dining..</p>
+          <a href="bootstrapcollection.html" class="btn btn-dark">View Details</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="http://www.zastavki.com/pictures/originals/2014/Brands____Beautiful_watches_065807_.jpg" class="card-img-top" alt="Watch 2">
+        <div class="card-body">
+          <h5 class="card-title">Tissot 56</h5>
+          <p class="card-text">The Tissot 56 is a distinguished timepiece that perfectly blends vintage charm with modern sophistication. Inspired by classic mid-century designs, it captures Tissot's legacy of precise Swiss craftsmanship and elegance. The Tissot 56 features a refined dial with clean indices and elegant hands, embodying timeless simplicity. Housed in a polished stainless steel case and often paired with a genuine leather strap, it offers a comfortable and stylish fit. The reliable Swiss quartz or automatic movement inside ensures impeccable timekeeping. Perfect for both formal and casual wear, the Tissot 56 is a versatile watch that enhances any ensemble with understated grace..</p>
+          <a href="bootstrapcollection.html" class="btn btn-dark">View Details</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://dynamicmedia.audemarspiguet.com/is/image/audemarspiguet/carouselHP_novelties_1000x1321_ROC_26650FO-OO-D353CA-01?size=568,0&fmt=avif-alpha&dpr=off" alt="Audemars Piguet Watch" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">AP royal oak </h5>
+          <p class="card-text">Here’s an elegant description for an Audemars Piguet (AP) watch, especially a Royal Oak:
+
+            ---
+            
+            The **Audemars Piguet Royal Oak** is a masterpiece of haute horlogerie, celebrated for its groundbreaking design and extraordinary craftsmanship. First introduced in 1972, the Royal Oak was the world's first luxury sports watch crafted from stainless steel, challenging conventions with its distinctive octagonal bezel, "Tapisserie" patterned dial, and integrated bracelet. The watch embodies AP’s commitment to innovation, housing a meticulously crafted automatic movement that offers exceptional accuracy and longevity. Each Royal Oak watch is a symbol of refined style, with finishes that combine polished and brushed surfaces for a unique, sophisticated look. Coveted by collectors and watch enthusiasts worldwide, it seamlessly bridges high fashion with functionality, making a statement on any wrist.</p>
+          <a href="bootstrapcollection.html" class="btn btn-dark">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2023 Watch World. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
